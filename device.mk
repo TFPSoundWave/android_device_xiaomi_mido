@@ -104,6 +104,8 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
     sound_trigger.primary.msm8953:32
+    
+    
 
 
 # Audio features
@@ -209,9 +211,9 @@ PRODUCT_PACKAGES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio
+    RevampedFMRadio \
+    libqcomfmjni:64
+    
 
 # Fwk-detect
 PRODUCT_PACKAGES += \
@@ -418,6 +420,7 @@ PRODUCT_PACKAGES += \
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service-lazy \
+    android.hardware.tetheroffload.config@1.0\
     android.system.net.netd@1.1.vendor \
     libcld80211 \
     libwpa_client \
