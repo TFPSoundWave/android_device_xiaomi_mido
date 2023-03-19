@@ -160,6 +160,11 @@ PRODUCT_PACKAGES += \
     camera.msm8953 \
     libcamshim \
     libui_shim
+    
+# Call recording
+PRODUCT_PACKAGES += \
+    com.google.android.apps.dialer.call_recording_audio.features.xml
+
 
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
