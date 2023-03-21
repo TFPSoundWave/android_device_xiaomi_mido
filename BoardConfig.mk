@@ -80,6 +80,7 @@ TARGET_SCREEN_DENSITY := 420
 TARGET_USES_ION := true
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
+#TARGET_DISPLAY_USE_SMOOTH_MOTION := true
 
 # Filesystem
 TARGET_USERIMAGES_USE_F2FS := true
@@ -152,6 +153,9 @@ include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 SELINUX_IGNORE_NEVERALLOWS := true
+
+# SurfaceFlinger
+#TARGET_USE_AOSP_SURFACEFLINGER := true
 
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
