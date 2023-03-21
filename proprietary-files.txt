@@ -1009,8 +1009,6 @@ vendor/lib64/libmmosal.so|e9fdb48163e92b089cea0c397723a8416436c272
 vendor/lib64/libvpplibrary.so|30e8e7cf1495fb88162beeb65e6273f28563b43b
 
 # Perf - from LA.UM.9.6.2.r1-04200-89xx.0
-vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|8661609a6155d1ba635ab867a301455003971842
-vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|459b4c23550a56ac545f78c6d391f3d7dd9ba45b
 vendor/lib/libperfconfig.so|7a13d55a9f906a0336404fbb8e6efc8a4ec75cd0
 vendor/lib/libperfgluelayer.so|45f4ce6664541625983080bd9fbbc5c1c89ab0d8
 vendor/lib/libperfioctl.so|5d1da18ae6860f6c4e185df679bec91ba772d331

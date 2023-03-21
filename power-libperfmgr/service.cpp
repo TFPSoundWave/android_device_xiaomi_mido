@@ -37,7 +37,7 @@ constexpr char kPowerHalConfigPath[] = "/vendor/etc/powerhint.json";
 constexpr char kPowerHalInitProp[] = "vendor.powerhal.init";
 
 int main() {
-    LOG(INFO) << "MSM8953 Power HAL AIDL Service with Extension is starting.";
+    LOG(INFO) << "MIDO Power HAL AIDL Service with Extension is starting.";
 
     // Parse config but do not start the looper
     std::shared_ptr<HintManager> hm = HintManager::GetFromJSON(kPowerHalConfigPath, false);
@@ -61,7 +61,7 @@ int main() {
     const std::string instance = std::string() + Power::descriptor + "/default";
     binder_status_t status = AServiceManager_addService(pw->asBinder().get(), instance.c_str());
     CHECK(status == STATUS_OK);
-    LOG(INFO) << "MSM8953 Power HAL AIDL Service with Extension is started.";
+    LOG(INFO) << "MIDO Power HAL AIDL Service with Extension is started.";
 
     if (::android::base::GetIntProperty("vendor.powerhal.adpf.rate", -1) != -1) {
         PowerHintMonitor::getInstance()->start();
@@ -77,6 +77,6 @@ int main() {
     ABinderProcess_joinThreadPool();
 
     // should not reach
-    LOG(ERROR) << "MSM8953 Power HAL AIDL Service with Extension just died.";
+    LOG(ERROR) << "MIDO Power HAL AIDL Service with Extension just died.";
     return EXIT_FAILURE;
 }

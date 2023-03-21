@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.power-service.msm8953.ext-libperfmgr"
+#define LOG_TAG "android.hardware.power-service.mido.ext-libperfmgr"
 
 #include "PowerExt.h"
 #include "PowerSessionManager.h"
