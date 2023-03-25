@@ -96,7 +96,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio-impl:32 \
     android.hardware.bluetooth.audio@2.1-impl:32 \
-    audio.a2dp.default \
     audio.bluetooth.default \
     audio.primary.msm8953:32 \
     audio.r_submix.default \
@@ -440,7 +439,6 @@ PRODUCT_PACKAGES += \
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service-lazy \
-    android.hardware.tetheroffload.config@1.0\
     android.system.net.netd@1.1.vendor \
     libcld80211 \
     libwpa_client \
