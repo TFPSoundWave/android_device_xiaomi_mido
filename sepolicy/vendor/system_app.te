@@ -26,3 +26,6 @@ allow system_app {
 
 # zram
 r_dir_file(system_app sysfs_zram)
+
+#FPS info
+allow system_app sysfs:file { getattr open read };

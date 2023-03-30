@@ -84,6 +84,9 @@
 
      <!-- QS tile title -->
     <string name="dirac_qs_tile_title">Dirac sound</string>
+    
+    <!-- FPS Counter -->
+    <string name="fps_info_title">FPS Counter</string>
 
     <!-- Torch -->
     <string name="torch_title">Torch Settings</string>
@@ -98,4 +101,5 @@
     <string name="vmax_override_mode_title">Override Vibration Intensity</string>
     <string name="vmax_override_mode_summary">Overrides vibration intensity value for all notification events</string>
     <string name="system_strength_title">Vibration strength</string>
+
 </resources>
